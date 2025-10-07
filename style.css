@@ -11,7 +11,7 @@ a {
 }
 body {
     background-color: #F9F9F9;
-    line-height: 100px;
+    line-height: 1;
 }
 .container {
     width: 1720px;
@@ -37,49 +37,123 @@ body {
     font-weight: 500;
 }
 .hero {
-    padding: 0;
     border-bottom: 2px solid #779611;
 }
 .hero-container {
     display: flex;
-    gap: 823px;
+    gap: 443px;
     align-items: center;
 }
 .hero-title {
-    padding: 193px 647px 50px 100px;
-    width: 376px;
-    height: 174px;
-    top: 313px;
-    left: 100px;
     color: #779611;
     font-size: 48px;
     font-family: "Exo 2", sans-serif;
     font-weight: 600;
+    padding-bottom: 50px;
 }
 .hero-text {
-    padding: 50px 443px 319px 100px;
-    width: 580px;
-    height: 87px;
-    top: 537px;
-    left: 100px;
     color: #000000;
     font-size: 24px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
+    padding-bottom: 50px;
 }
 .hero-link {
-    margin: 50px 799px 194px 100px;
-    width: 224px;
-    height: 75px;
-    top: 674px;
-    left: 100px;
+    padding: 18px 70px;
     font-size: 32px;
     font-weight: 400;
     font-family: "Montserrat", sans-serif;
     border: 1px solid #779611;
-    border-radius: 20px;
+    border-radius: 40px;
     background-color: #779611;
     color: #F9F9F9;
+}
+/* 2 секція */
+.flaves {
+    padding-top: 80px;
+}
+.flaves-title {
+    font-size: 36px;
+    font-family: "Exo 2", sans-serif;
+    color: #779611;
+    font-weight: 600;
+    padding-bottom:35px ;
+}
+.flaves-text {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 50px;
+}
+.flaves-list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.flaves-name {
+    padding-left:60px ;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 15px;
+    padding-top: 35px;
+    color: #779611;
+    font-weight: 400;
+}
+.flaves-price {
+    padding-left:60px ;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+/* 3 секція на дз */
+
+.aboutus {
+    padding-top: 114px;
+    padding-bottom: 114px;
+        border-top: 2px solid #779611;
+}
+.aboutus-container {
+    display: flex;
+    gap: 455px;
+    align-items: center;
+}
+.aboutus-subtitle {
+    padding-bottom: 15px;
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    color: #779611;
+}
+.aboutus-title {
+    padding-bottom: 35px;
+    font-size: 48px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    color: #779611;
+}
+.aboutus-text {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.footer {
+    padding: 60px 0;
+    border-top: 2px solid #779611;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list, .footer-wrapp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-link, .footer-text, .footer-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+.footer-title {
+    padding-bottom: 20px;
+}
+.footer-text {
+    line-height: 1.8;
 }
